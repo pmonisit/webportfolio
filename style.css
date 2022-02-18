@@ -5,6 +5,10 @@
 	font-family: 'Poppins', sans-serif;
 }
 
+nav {
+	color: #4a6b82 !important;
+}
+
 .navbar img {
 	width: 60px;
 	margin-left: 10px;
@@ -36,16 +40,17 @@
 	width: auto;
 }
 
-/*#about-me {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+#about-me {
+	background-color: #eff3f6;
+	/*background-image: linear-gradient(#7395AE, 557A95),
 	url("images/hero-image2.jpg") ;
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-position: center;
-}*/
+	background-position: center;*/
+}
 
 #my-projects {
-	background-color: #f2f2f2;
+	/*background-color: #f2f2f2;*/
 	height: auto;
 	width: auto;
 }
@@ -71,6 +76,10 @@
 	padding: 10px;
 }
 
+#my-contact {
+	background-color: #cedae3;
+}
+
 #about-me img {
 	height: 50px;
 	width: 50px;
@@ -78,6 +87,11 @@
 
 #first-footer {
 	background-color: #f2f2f2 ;
+}
+
+#second-footer {
+	background-color: #5d5c61 !important;
+	color: white;
 }
 
 #paper-plane {
@@ -128,6 +142,10 @@
 	position: absolute;
 	top: 0;
 	width: 100%;
+}
+
+textarea {
+	resize: none !important;
 }
 
 
