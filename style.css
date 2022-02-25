@@ -55,7 +55,7 @@ nav {
 }
 
 #my-projects {
-  /*background-color: #f2f2f2;*/
+  /*background-color: #99ddff;*/
   height: auto;
   width: auto;
 }
@@ -310,4 +310,16 @@ textarea {
   width: 100px;
   height: 100px;
 
+}
+
+#achievements {
+   overflow: scroll;
+}
+
+#cert3-img {
+  height: 500px;
+}
+
+#cert4-img {
+  height: 500px;
 }
