@@ -5,6 +5,10 @@
 	font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+	 text-shadow: 1px 1px 2px black, 0 0 25px #7094db, 0 0 5px #c2d1f0;
+}
+
 nav {
 	color: #4a6b82 !important;
 }
@@ -28,13 +32,11 @@ nav {
   border-bottom: 1px solid transparent;
 }
 
-
 #home-banner img {
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: absolute;
 }
-
 
 #about-image {
 	border-radius: 90px !important;
@@ -49,6 +51,7 @@ nav {
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;*/
+	box-shadow: 10px 10px 20px #cccccc;
 }
 
 #my-projects {
@@ -80,6 +83,7 @@ nav {
 
 #my-contact {
 	background-color: #cedae3;
+	box-shadow: 10px 10px 20px #cccccc;
 }
 
 #about-me #icon img {
@@ -159,7 +163,7 @@ textarea {
 
 #other-skills img:hover {
 	animation: shake 0.5s;
-  	animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 
 @keyframes shake {
@@ -180,5 +184,39 @@ textarea {
 	display: none;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.accordion .card-header:hover {
+	background-color: #d6e0f5;
+}
+
+.accordion .card img {
+	width: auto;
+	height: auto;
+
+}
+
+.accordion .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
