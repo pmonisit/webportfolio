@@ -32,7 +32,7 @@
 <body>
 	
 	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-expand-md navbar-light bg-light">
+	<nav class="navbar sticky-top navbar-expand-lg navbar-expand-md navbar-light bg-light">
 	  <a class="navbar-brand" href="#">
 	      <img src="images/prince-logo.png" alt="Logo" id="weblogo">
 	  </a>
@@ -138,7 +138,7 @@
 				<div class="col-12 col-md-12 col-lg-6" id="dev-tools">
 								<!-- Core Tools Section Start -->
 						<h4 class="text-center m-3">Other Info</h4>
-						<div class="accordion" id="accordionExample">
+						<div class="accordion" id="accordion-OtherInfo">
 								
 								<div class="card">
 								  <div class="card-header" id="headingOne">
@@ -149,7 +149,7 @@
 								    </h2>
 								  </div>
 
-								  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+								  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-OtherInfo">
 								    <div class="card-body">							      
 								    	<div class="container">
 								    	    <div class="row">
@@ -190,23 +190,23 @@
 							</div>
 
 
-								<div class="card">
+								<div class="card" id="cardCoreTools">
 								  <div class="card-header" id="headingTwo">
 								    <h2 class="mb-0">
 								      <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-								       WEB DEVELOPMENT CORE TOOLS
+								       CORE TOOLS
 								      </button>
 								    </h2>
 								  </div>
 
-								  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+								  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion-OtherInfo">
 								    <div class="card-body">							      
 								    	<div class="container">
 								    	    <div class="row">
 								    	        <div class="col">		                            
-								    	            <img width="150" src="images/logo-html5.png"/>              
-								    	            <img width="150" src="images/logo-css3.png"/>
-								    	            <img width="150" src="images/logo-javascript.png"/>
+								    	            <img src="images/logo-html5.png" class="img-fluid" />              
+								    	            <img src="images/logo-css3.png" class="img-fluid" />
+								    	            <img src="images/logo-javascript.png" class="img-fluid" />
 								    	        </div>
 								    	    </div>
 								    	</div>   
@@ -215,7 +215,7 @@
 								</div>
 
 
-								<div class="card">
+								<div class="card" id="cardOtherTools">
 								  <div class="card-header" id="headingThree">
 								    <h2 class="mb-0">
 								      <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
@@ -224,20 +224,20 @@
 								    </h2>
 								  </div>
 
-								  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+								  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-OtherInfo">
 								    <div class="card-body">							      
 								    	<div class="d-flex flex-md-column justify-content-center">
 						                    <div class="row">
 						                    <div class="col-12">
-						                        <img width="150" src="images/logo-mongodb.png"/>
-						                        <img width="150" src="images/logo-nodejs.png"/>
-						                        <img width="150" src="images/logo-expressjs.png"/>
-						                        <img width="150" src="images/logo-react.png"/>
-						                        <img width="150" src="images/logo-heroku.png"/>
-						                        <img width="150" src="images/logo-git.png"/>
-						                        <img width="150" src="images/logo-sublime-text-3.png"/>
-						                        <img width="150" src="images/logo-postman.png"/>
-						                        <img width="150" src="images/logo-gitlab-ci-cd.png"/>
+						                        <img src="images/logo-mongodb.png" class="img-fluid"/>
+						                        <img src="images/logo-nodejs.png" class="img-fluid"/>
+						                        <img src="images/logo-expressjs.png" class="img-fluid"/>
+						                        <img src="images/logo-react.png" class="img-fluid"/>
+						                        <img src="images/logo-heroku.png" class="img-fluid"/>
+						                        <img src="images/logo-git.png" class="img-fluid"/>
+						                        <img src="images/logo-sublime-text-3.png" class="img-fluid"/>
+						                        <img src="images/logo-postman.png" class="img-fluid"/>
+						                        <img src="images/logo-gitlab-ci-cd.png" class="img-fluid"/>
 						                    </div>
 						                    </div>
 				                		</div> 
@@ -320,8 +320,8 @@
 	<!-- End My Projects -->
 
 	<!-- Start Contact -->
-	<div class="w-100 py-4 flex-shrink-0" id="my-contact">
-		<h1 class="text-center">Contact</h1>
+	<div class="w-100 py-4 flex-shrink-0" id="my-contact">	
+		<h1 class="text-center pt-5 mt-3">Contact</h1>
 	    <div class="container py-4">
 	       <div class="row gy-4 gx-5">
 		         <div class="col-lg-6 col-md-12">
@@ -419,6 +419,7 @@
 	<!-- End Footer -->
 
 </div>
+
 		<!-- Script for Image Modal -->
 		<script>
 		// Get the modal

@@ -299,3 +299,15 @@ textarea {
     width: 100% !important;
   }
 }
+
+.accordion #cardCoreTools img {
+	width: 100px;
+	height: 100px;
+
+}
+
+.accordion #cardOtherTools img {
+	width: 100px;
+	height: 100px;
+
+}
