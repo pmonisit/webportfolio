@@ -61,10 +61,14 @@ nav {
 }
 
 #my-projects img{
-  height: 200px;
+  height: 300px;
   width: 500px;
   transition: transform .2s;
   margin-bottom: 20px;
+}
+
+#my-projects p{
+  text-align: center !important;
 }
 
 #my-projects img:hover {
@@ -413,10 +417,4 @@ textarea {
    height: 450px;
 }
 
-#cert3-img {
-  height: 500px;
-}
 
-#cert4-img {
-  height: 500px;
-}
