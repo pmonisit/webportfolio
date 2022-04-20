@@ -155,6 +155,21 @@
 								    <div class="card-body" id="trainings">							      
 								    	<div class="container">
 								    	    <div class="row">
+												<div class="col-12 col-md-6 col-lg-6">		                            
+								    	            <div class="card mb-5">
+								    	              <img src="images/ZUITT FULLSTACK CERTIFICATE.jpeg" class="card-img-top img-fluid" id="cert4-img">
+								    	              <div class="card-body">
+								    	                <h5 class="card-title">Full Stack Web Development</h5>
+														
+								    	                <p class="card-text">Issuing Organization:</p>
+								    	                <p class="card-text"><strong>ZUITT</strong></p> 
+														<button type="button" class="btn btn-outline-primary btn-sm">
+															<a href="https://zuitt.co/" target="_blank" style="text-decoration: none;">Go to Zuitt website</a>
+														</button>
+														
+								    	              </div>
+								    	            </div>
+								    	        </div>
 								    	        <div class="col-12 col-md-6 col-lg-6">		                            
 								    	            <div class="card mb-5">
 								    	              <img src="images/frontend-cert.jpeg" class="card-img-top img-fluid" id="cert-img">
@@ -172,7 +187,7 @@
 
 								    	        </div>
 								    	        <div class="col-12 col-md-6 col-lg-6">		                            
-								    	           <div class="card">
+								    	           <div class="card mb-5">
 								    	              <img src="images/backend-cert.jpeg" class="card-img-top img-fluid" id="cert2-img">
 								    	              <div class="card-body">
 								    	                <h5 class="card-title">Back End Web Development</h5>
@@ -185,6 +200,20 @@
 								    	              </div>
 								    	            </div>
 								    	        </div>
+												<div class="col-12 col-md-6 col-lg-6">		                            
+													<div class="card mb-5">
+													   <img src="images/ts-certificate.jpg" class="card-img-top img-fluid" id="cert3-img">
+													   <div class="card-body">
+														 <h5 class="card-title">PC Hardware and Software Troubleshooting</h5>
+														 <p class="card-text">Issuing Organization:</p>
+														 <p class="card-text"><strong>CNCTC</strong></p>
+														 <button type="button" class="btn btn-outline-primary btn-sm">
+															 <a href="https://www.cnctc.edu.ph/" target="_blank" style="text-decoration: none;">Go to CNCTC website</a>
+														 </button>
+														
+													   </div>
+													 </div>
+												 </div>
 													<!-- Image Modal -->
 													<div id="myModal" class="modal">
 														<span class="close">&times;</span>
@@ -226,25 +255,6 @@
 
 								    	        </div>
 								    	    </div>
-
-											<div class="row">
-												<div class="col-12 col-md-6 col-lg-6">		                            
-													<div class="card">
-													   <img src="images/ts-certificate.jpg" class="card-img-top img-fluid" id="cert3-img">
-													   <div class="card-body">
-														 <h5 class="card-title">PC Hardware and Software Troubleshooting</h5>
-														 <p class="card-text">Issuing Organization:</p>
-														 <p class="card-text"><strong>CNCTC</strong></p>
-														 <button type="button" class="btn btn-outline-primary btn-sm">
-															 <a href="https://www.cnctc.edu.ph/" target="_blank" style="text-decoration: none;">Go to CNCTC website</a>
-														 </button>
-														
-													   </div>
-													 </div>
-												 </div>
-								    	    </div>
-
-
 
 								    	</div>   
 								    </div>
@@ -581,6 +591,8 @@
 		var img = document.getElementById('cert-img');
 		var img2 = document.getElementById('cert2-img');
 		var img3 = document.getElementById('cert3-img');
+		var img4 = document.getElementById('cert4-img');
+
 
 		var modalImg = document.getElementById("img01");
 		var captionText = document.getElementById("caption");
@@ -596,6 +608,11 @@
 		  captionText.innerHTML = this.alt;
 		}
 		img3.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		img4.onclick = function(){
 		  modal.style.display = "block";
 		  modalImg.src = this.src;
 		  captionText.innerHTML = this.alt;
