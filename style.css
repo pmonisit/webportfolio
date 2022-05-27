@@ -65,6 +65,7 @@ nav {
   width: 500px;
   transition: transform .2s;
   margin-bottom: 20px;
+  object-fit: cover;
 }
 
 #my-projects p{
